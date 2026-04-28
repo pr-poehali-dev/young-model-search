@@ -565,7 +565,7 @@ const Index = () => {
             <div className="h-px w-24 gold-line mx-auto" />
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {[
               {
                 icon: 'MapPin',
@@ -581,6 +581,11 @@ const Index = () => {
                 icon: 'Mail',
                 title: 'Электронная почта',
                 lines: ['pol.roket@mail.ru'],
+              },
+              {
+                icon: 'Send',
+                title: 'Telegram',
+                lines: ['@Workklass77'],
               },
             ].map((item) => (
               <div key={item.title} className="text-center premium-border p-10 bg-noir transition-all">
