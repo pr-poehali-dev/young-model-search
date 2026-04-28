@@ -580,7 +580,7 @@ const Index = () => {
               {
                 icon: 'Mail',
                 title: 'Электронная почта',
-                lines: ['casting@maison-models.ru', 'booking@maison-models.ru'],
+                lines: ['pol.roket@mail.ru'],
               },
             ].map((item) => (
               <div key={item.title} className="text-center premium-border p-10 bg-noir transition-all">
